@@ -1,0 +1,1 @@
+This a practise project from several random javascript resources on the internet.
