@@ -1,7 +1,7 @@
-// function changeColor(newColor) {
-//     let colorTest = document.getElementById('test');
-//     colorTest.style.color = newColor;
-// }
+function changeColor(newColor) {
+    let colorTest = document.getElementById('test');
+    colorTest.style.color = newColor;
+}
 // let gender = "female";
 
 // function checkGender() {
@@ -34,3 +34,14 @@ function addAndRemove (figure) {
 };
 addAndRemove("added cox string");
 console.log(myDog.friends);
+
+
+// A function to implement multiplication table
+let number = parseInt(prompt("Enter a Number to Evaluate: "));
+
+let count = 0;
+while (count <= 12) {
+  let sum = count * number;
+  document.write(console.log(`${number} * ${count} = ${sum}`));
+  count++;
+}
